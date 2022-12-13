@@ -10,10 +10,12 @@ export class CreatePlayerDTO {
 
     @IsEmail()
     readonly email: string;
-    
+
     readonly name: string;
 
     constructor(props: CreatePlayer) {
         Object.assign(this, props);
     }
 }
+
+

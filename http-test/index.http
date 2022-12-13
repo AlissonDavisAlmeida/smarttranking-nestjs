@@ -1,24 +1,24 @@
-# GET http://localhost:8080/api/v1/players/ HTTP/1.1
-# content-type: application/json
-
-# {
-#     "props": {
-#     "phoneNumber": "17811219",
-#     "name": "",
-#     "email": "a@a.com"
-#     }
-# }
-
-PATCH http://localhost:8080/api/v1/players/638fff53ed2dbcab1f1ccab8 HTTP/1.1
+GET http://localhost:8080/api/v1/players/ HTTP/1.1
 content-type: application/json
 
 {
-    
+    "props": {
     "phoneNumber": "17811219",
-    "name": "Apolo",
-    "email": "apolo@agmail.com"
-    
+    "name": "",
+    "email": "a@a.com"
+    }
 }
+
+# PATCH http://localhost:8080/api/v1/players/638fff53ed2dbcab1f1ccab8 HTTP/1.1
+# content-type: application/json
+
+# {
+    
+#     "phoneNumber": "17811219",
+#     "name": "Apolo",
+#     "email": "apolo@agmail.com"
+    
+# }
 
 
 # GET http://localhost:8080/api/v1/players/638fff53ed2dbcab1f1ccab8 HTTP/1.1
