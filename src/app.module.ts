@@ -4,6 +4,7 @@ import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from "@nestjs/mongoose"
 import { CategoriesModule } from './categories/categories.module';
 
+
 @Module({
   imports: [
     PlayersModule,
